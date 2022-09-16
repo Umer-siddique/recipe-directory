@@ -1,0 +1,89 @@
+.recipe-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+.recipe-list .card{
+    background: #ffffff;
+    color: #333;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+.card .img-div{
+    width: 100%;
+    height: 120px;
+    padding: 0!important;
+    margin: 0!important;
+    object-fit: contain;
+    border-radius: 4px;
+}
+.card .img-div img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius:4px ;
+}
+.card .recipe-info{
+    padding: 5px 20px;
+    position: relative;
+}
+.recipe-list .card .trash-div{
+    background: #555;
+    position: absolute;
+    right: 20px;
+    top: -3px;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recipe-list .card .trash-can{
+     color: #ffffff;
+    font-size: 15px;
+}
+.recipe-list .card :nth-child(6){
+    margin-right: 30px;
+}
+.recipe-list .card:hover{
+    transform: rotate(4deg);
+    cursor: pointer;
+}
+.recipe-list .card h2{
+    color: #555;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+.recipe-list .card p{
+    color: #999;
+    font-size: 0.9em;
+}
+.recipe-list .card div{
+    color: #555;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+.recipe-list .card a{
+    color: #555;
+    text-decoration: none;
+    width: 100px;
+    display: block; 
+    background:transparent;
+    text-align: center;
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    border: 1px solid #555;
+    margin-top: 15px;
+}
+.recipe-list .card a:hover{
+    color: #ffffff;
+    background: #555;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}

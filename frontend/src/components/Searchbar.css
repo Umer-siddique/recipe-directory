@@ -1,0 +1,21 @@
+
+.search-form>.search-bar{
+    /* border: 1px solid black; */
+    /* width: 500px; */
+    width: 500px;
+    background: #ffffff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 4px 4px;
+    border-radius: 3px;
+}
+.search-bar>input{
+    width: 100%;
+    padding: 4px 8px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    /* text-transform: capitalize; */
+}

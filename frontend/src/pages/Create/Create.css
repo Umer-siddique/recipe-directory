@@ -1,0 +1,79 @@
+.create{
+    max-width: 400px;
+    margin: 50px auto;
+    /* border: 1px solid red; */
+}
+.create>h1{
+ color: #333;
+ margin-bottom: 30px;
+ font-size: 1.8rem;
+}
+.create>form>label span{
+    display: block;
+    margin-top:15px;
+    color: #333;
+    font-weight: 600;
+}
+.create>form input,textarea{
+    width: 100%;
+    padding: 4px 8px;
+    margin-top: 10px; 
+}
+.create>form .ingredients__container{
+    display: flex;
+    align-items: center;
+}
+.ingredients__container button{
+    color:#ffffff;
+    border:none;
+    outline: none;
+    background:rgb(132, 77, 185);
+    padding: 5.5px 12px;
+    font-weight: bold;
+    /* border-radius: 3px; */
+    /* letter-spacing: 1px; */
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.create>form .ingredient-list{
+    color: rgb(94, 92, 92);
+    font-size: 14px;
+    margin-top: 15px;
+    display: flex;
+    list-style-type: none;
+}
+.create>form .ingredient-list li{
+    text-decoration: none;
+    margin-left:4px;
+}
+.create>form .ingredient-list li::after{
+    content: ",";
+}
+.create>form .ingredient-list li:last-child::after{
+    content: ".";
+}
+.create>form >button{
+    color:#ffffff;
+    border: 2px solid rgb(132, 77, 185);
+    outline: none;
+    background:rgb(132, 77, 185);
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    /* letter-spacing: 1px; */
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.error{
+    background-color: pink;
+    border:1px solid red;
+    border-radius: 4px;
+    color: red;
+    padding: 5px 10px;
+    margin-top: 15px;
+    font-size: 14px;
+}
